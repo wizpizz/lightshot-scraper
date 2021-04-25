@@ -79,7 +79,7 @@ def choice_prompt():
                  '2) Choose directory\n'
                  '3) Exit\n'
                  '==============================================================\n'
-                 'Your option:')
+                 'Your option: ')
   # 1) Start scraping
   if str(choice) == "1":
     # Tries to get the directory that was selected from the config
