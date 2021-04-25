@@ -31,6 +31,7 @@ if not os.path.isfile('config.json'):
   create_config()
 
 def scraper(directory):
+  os.system('cls')
   if not os.path.exists(directory):
     os.mkdir(directory)
   while True:
